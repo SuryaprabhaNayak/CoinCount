@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{ 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background: #e4e9f7;
+    background-color: #dcdbdb;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.box{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+.form-box header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+.form-box form .field{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+
+}
+.form-box form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.btn{
+    height: 35px;
+    background: #63c76a;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background: #59bd60;
+}
+.submit{
+    width: 100%;
+}
+.links{
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: #00aced;
+}
+a:hover{
+   color: #3868cd;
+}
+/**graph**/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    text-align: center;
+}
